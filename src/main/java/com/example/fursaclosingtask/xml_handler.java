@@ -14,7 +14,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.net.URL;
 
 @RestController
-public class controller {
+public class xml_handler {
 
     @RequestMapping("/")
     public ModelAndView breakingNews(Model model){
