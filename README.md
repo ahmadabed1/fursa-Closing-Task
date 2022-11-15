@@ -27,11 +27,14 @@
     $ java -jar target/*.jar`
 
 -Now you can access the app using : http://localhost:8080/ .
+
 <img width="960" alt="צילום מסך 2022-11-15 130242" src="https://user-images.githubusercontent.com/73169815/201904336-f3b55bb0-79f7-4bd1-9db4-bee2b03181de.png">
 
 
-### Jenkins Job :
+### Jenkins Job 
 
 
 ------------
+
+<img width="960" alt="צילום מסך 2022-11-15 130611" src="https://user-images.githubusercontent.com/73169815/201904790-1786de49-283c-415d-aee5-126055973c4c.png">
 
