@@ -26,6 +26,7 @@
     $ ./mvnw package
     $ java -jar target/*.jar`
 
+-Now you can access the app using : http://localhost:8080/ .
+<img width="960" alt="צילום מסך 2022-11-15 130242" src="https://user-images.githubusercontent.com/73169815/201904336-f3b55bb0-79f7-4bd1-9db4-bee2b03181de.png">
 
-- now <img width="944" alt="צילום מסך 2022-11-15 125133" src="https://user-images.githubusercontent.com/73169815/201904173-49146f7b-9682-4763-879c-4473900076fa.png">
-you can access the app using : http://localhost:8080/ .
+
