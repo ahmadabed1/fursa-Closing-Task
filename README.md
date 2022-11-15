@@ -1,6 +1,7 @@
-## **fursa-Closing-Task**
+## **Fursa-Closing-Task**
 
-------------
+
+
 
 - Create a Java Application (Managed by Gradle).
 - Create a Jenkins CI/CD pipeline Job to Build and Deploy (Run) the 	  application on a new instance.
