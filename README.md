@@ -27,4 +27,5 @@
     $ java -jar target/*.jar`
 
 
-- now you can access the app using : http://localhost:8080/ .
+- now <img width="944" alt="צילום מסך 2022-11-15 125133" src="https://user-images.githubusercontent.com/73169815/201904173-49146f7b-9682-4763-879c-4473900076fa.png">
+you can access the app using : http://localhost:8080/ .
