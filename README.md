@@ -1,4 +1,4 @@
-**fursa-Closing-Task**
+## **fursa-Closing-Task**
 
 ------------
 
@@ -12,7 +12,7 @@
 <img width="944" alt="צילום מסך 2022-11-15 125133" src="https://user-images.githubusercontent.com/73169815/201902408-3cb34f70-01c5-4de6-9e5f-5b329f8ac35f.png">
 
 
-------------
+
 
 **Rune the application**
 
