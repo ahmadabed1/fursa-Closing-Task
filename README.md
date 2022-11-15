@@ -38,3 +38,6 @@
 
 <img width="960" alt="צילום מסך 2022-11-15 130611" src="https://user-images.githubusercontent.com/73169815/201904790-1786de49-283c-415d-aee5-126055973c4c.png">
 
+
+
+> This pipeline sends a slack notification,if you're intrested in sending one into your own slack channel, you have to setup the slack plugin pefore you run the jenkins file, use this link for more detailesThis pipeline sends a slack notification,if you're intrested in sending one into your own slack channel, you have to setup the slack plugin pefore you run the jenkins file, use this link for more detailes
