@@ -1,0 +1,30 @@
+pipeline {
+    
+    agent {label 'node-01'}
+    stages {
+        stage('Clone') {
+            steps {
+                   git branch: 'main', url: 'https://github.com/ahmadabed1/fursa-closing-task.git'
+            }
+        }
+        
+        stage('Build') {
+            steps{
+                sh "export JAVA_HOME='/usr/lib/jvm/java-17-amazon-corretto.x86_64/' && chmod +x mvnw && ./mvnw clean package"
+            }
+        }
+        
+        stage('Artifact') {
+            steps{
+                archiveArtifacts artifacts: '**/*.jar', followSymlinks: false
+            }
+        }
+        stage('slack'){
+            steps{
+            slackSend baseUrl: 'https://hooks.slack.com/services/',
+            channel: '#ahmad-fursa', color: 'good', message: 'builded success !!!!',
+            teamDomain: 'fursa-first-pro', tokenCredentialId: 'ahmad-fursa-tok'
+        }
+        }
+    }
+}
