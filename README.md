@@ -30,3 +30,8 @@
 <img width="960" alt="צילום מסך 2022-11-15 130242" src="https://user-images.githubusercontent.com/73169815/201904336-f3b55bb0-79f7-4bd1-9db4-bee2b03181de.png">
 
 
+### Jenkins Job :
+
+
+------------
+
