@@ -1,3 +1,3 @@
 FROM openjdk
-COPY target/demo-0.0.1-SNAPSHOT.jar demo-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/demo-0.0.1-SNAPSHOT.jar"]
+COPY target/jenkins-0.0.1-SNAPSHOT.jar jenkins-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/jenkins-0.0.1-SNAPSHOT.jar"]
