@@ -3,7 +3,7 @@
 
 
 
-- Create a Java Application (Managed by Gradle).
+- Create a Java Application (Managed by Maven).
 - Create a Jenkins CI/CD pipeline Job to Build and Deploy (Run) the 	  application on a new instance.
 
 1- Reads the “Breaking News” from YNet new service: http://www.ynet.co.il/Integration/StoryRss2.xml.
