@@ -1,3 +1,3 @@
-FROM openjdk
-COPY target/jenkins-0.0.1-SNAPSHOT.jar jenkins-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/jenkins-0.0.1-SNAPSHOT.jar"]
+FROM openjdk:11
+COPY . .
+CMD ["java","-jar","target/fursa-closing-task-0.0.1-SNAPSHOT.jar"]
